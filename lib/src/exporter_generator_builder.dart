@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:build/build.dart';
 import 'package:source_gen/source_gen.dart';
 
-import 'AutoExporter.dart';
+import 'auto_exporter.dart';
 
 // ignore: public_member_api_docs
 class ExporterGeneratorBuilder implements Builder {
@@ -26,7 +26,6 @@ class ExporterGeneratorBuilder implements Builder {
     if (annotated.isNotEmpty) {
       await buildStep.writeAsString(
           buildStep.inputId.changeExtension('.exports'), annotated.join(','));
-      print("Generator called");
     }
   }
 }
