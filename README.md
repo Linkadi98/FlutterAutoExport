@@ -30,5 +30,5 @@ Then in your other files, you just need to import the `auto_export.dart` file to
 2. In your terminal, run the following command
 
 ```bash
-$ dart pub run build_runner build
+$ dart run build_runner build
 ``` 

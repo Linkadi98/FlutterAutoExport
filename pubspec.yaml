@@ -1,13 +1,13 @@
 name: files_exporter
 description: Automatically export your files globally.
-version: 1.0.0
+version: 1.0.3
 homepage: https://github.com/Linkadi98/FlutterAutoExport
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
-  analyzer: ^6.2.0
+  analyzer: '>=4.7.0 <6.0.0'
   source_gen: ^1.4.0
   build: ^2.4.1
   build_resolvers: ^2.2.1
